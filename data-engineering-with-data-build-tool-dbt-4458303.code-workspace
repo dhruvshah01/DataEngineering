@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"uri": "vscode-remote://codespaces+turbo-succotash-7wp4pqx5r4v2jxq/workspaces/data-engineering-with-data-build-tool-dbt-4458303"
+		}
+	],
+	"remoteAuthority": "codespaces+turbo-succotash-7wp4pqx5r4v2jxq",
+	"settings": {
+		"explorer.openEditors.visible": 0,
+		"files.autoSave": "afterDelay",
+		"screencastMode.onlyKeyboardShortcuts": true,
+		"terminal.integrated.fontSize": 18,
+		"workbench.colorTheme": "Visual Studio Dark",
+		"workbench.fontAliasing": "antialiased",
+		"workbench.statusBar.visible": true
+	}
+}
