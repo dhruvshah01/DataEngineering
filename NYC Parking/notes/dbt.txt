@@ -1,0 +1,48 @@
+We begin with installing dbt-core:
+pip install dbt-core==1.6.1 (can specify the version)
+
+We install the connection driver between dbt and duckdb:
+pip install dbt-duckdb==1.6.0
+
+We finally install duckdb: 
+pip install duckdb==0.9.0
+
+Finally we initialize:
+dbt init
+
+dbt init creates a nice structre which will have dbt_project.yml which is important to us
+Now we setup a profiles.yml for the structre
+
+touch profiles.yml
+
+copy paste the basic code from dbt documentation
+
+change the default tag to the name of the project in the dbt_project.yml
+
+give path tag to our db
+
+Create a sql file in the models folder:
+touch name.sql
+
+Compile it using,
+dbt compile
+
+Run it using,
+dbt run
+
+Reference model lineage graph:
+dbt docs generate
+
+To view the lineage graph:
+dbt docs serve
+
+For documentation,
+we create a docs directory,
+create a schema.yml which has some base code
+create a docs_block.md and some jinjer sytnaxes
+
+For tests,
+we create a test directory,
+there are 3 different types of tests, so accordingly create a sub-folder
+define a sql file containing the jinjer sytnaxes and the test code
+
